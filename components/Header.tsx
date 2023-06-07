@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Logo } from "./icons/logo";
 import { Container } from "./Container";
+import { Button } from "./Button";
 
 export const Header = () => {
   return (
@@ -38,7 +39,7 @@ export const Header = () => {
           <Link className="text-sm mr-6" href="#">
             Log in
           </Link>
-          <Link href="#">Sign up</Link>
+          <Button href="#">Sign up</Button>
         </div>
       </Container>
     </header>
