@@ -1,12 +1,10 @@
 import { Container } from "@/components/Container";
 import { Hero, HeroSubTitle, HeroTitle } from "@/components/Hearo";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <div>
-      <header>
-        <Container>header</Container>
-      </header>
       <main>
         <Container>
           <Hero>
@@ -15,6 +13,7 @@ export default function Home() {
               Meet the new standart for modern softwere development. Streamline
               issues , sprints, and product roadmaps
             </HeroSubTitle>
+            <img src="/img/hero.webp" alt="hero image" />
           </Hero>
         </Container>
       </main>
