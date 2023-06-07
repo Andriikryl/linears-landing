@@ -1,3 +1,17 @@
+import { Container } from "@/components/Container";
+
 export default function Home() {
-  return <h1>jojo</h1>;
+  return (
+    <div>
+      <header>
+        <Container>header</Container>
+      </header>
+      <main>
+        <Container>main</Container>
+      </main>
+      <footer>
+        <Container>footer</Container>
+      </footer>
+    </div>
+  );
 }

@@ -4,6 +4,7 @@
 
 @layer base {
     html {
-        @apply bg-background;
+        @apply bg-background font-sans text-white;
+        font-size: 62.5%;
     }
 }
