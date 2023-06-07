@@ -5,7 +5,7 @@ import { Button } from "./Button";
 
 export const Header = () => {
   return (
-    <header className=" fixed top-0 left-0 w-full border-b border-white-a08">
+    <header className=" fixed top-0 left-0 w-full border-b border-white-a08 backdrop-blur-[12px]">
       <Container className="flex items-center h-[var(--navigation-height)]">
         <Link className="flex items-center text-md" href="/">
           <Logo className="w-[3.8rem] h-[3.8rem] mr-4" /> Linear
