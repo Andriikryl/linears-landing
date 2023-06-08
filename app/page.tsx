@@ -17,9 +17,6 @@ export default function Home() {
           </Hero>
         </Container>
       </main>
-      <footer>
-        <Container>footer</Container>
-      </footer>
     </div>
   );
 }

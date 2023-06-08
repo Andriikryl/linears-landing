@@ -1,6 +1,7 @@
 import { Container } from "@/components/Container";
 import "./globals.css";
 import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 
 export const metadata = {
   title: "Create Next App",
@@ -24,9 +25,7 @@ export default function RootLayout({
         <div>
           <Header />
           <main className="pt-[var(--navigation-height)]">{children}</main>
-          <footer>
-            <Container>footer heare</Container>
-          </footer>
+          <Footer></Footer>
         </div>
       </body>
     </html>
